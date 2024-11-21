@@ -1,0 +1,77 @@
+/* Đặt khoảng cách cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Tiêu đề chính của trang */
+h1 {
+    color: #008080; /* Màu teal */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Kiểu dáng form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Kiểu textarea 
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}*/
+
+/* Kiểu nút submit */
+input[type="submit"] {
+    padding: 12px 25px;
+    background-color: #007bff; /* Màu xanh */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu xanh đậm khi hover */
+}
+
+/* Bảng kết quả */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Thông báo kết quả truy vấn */
+h2 {
+    color: #28a745; /* Màu xanh lá cho thông báo thành công */
+}
